@@ -29,8 +29,6 @@ var pem = fs.readFileSync(
 
 var privateKey = forge.pki.privateKeyFromPem(pem);
 
-console.log(pem);
-
 app.post('/example', function(req, res) {
 
 	console.log('### INFO: Data received %j', req.body);

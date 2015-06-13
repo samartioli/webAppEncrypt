@@ -18,6 +18,9 @@ A very simple example to show how to encrypt data in a webClient using a symetri
 
     git clone git@github.com:samartioli/webAppEncrypt.git
     
+    # Make sure you have the global npm modules installed
+    npm install -g bower http-server
+
     # WebApp
     cd webAppEncrypt/webApp
     bower install
